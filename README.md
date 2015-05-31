@@ -10,7 +10,8 @@ TODO
 ----
 
 - Define types for `Bib`, `Paper` etc.
-- Write 
+- Parse `Pub` from file
+- basically, fill in `src/main.hs`
 
 Usage
 -----
