@@ -1,0 +1,13 @@
+<h1>Publications</h1>
+
+<ul>
+{% for p in pubs %}
+  <li>{{ p.title }} at {{ p.shortvenue }} in {{ p.year }} by:
+    <ul>
+      {% for a in p.authors %}
+      <li> {{ a }} </li>
+      {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>

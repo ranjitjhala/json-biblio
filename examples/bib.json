@@ -1,0 +1,33 @@
+[ { title      : "Lazy Abstraction"
+  , authors    : [ "Thomas Henzinger", "Ranjit Jhala", "Rupak Majumdar", "Gregoire Sutre" ]
+  , year       : 2002
+  , venue      : "ACM Symposium on Principles of Programming Languages"
+  , shortvenue : "POPL"
+  , tags       : [ "Software Model Checking", "BLAST" ]
+  , url        : "http://www.google.com"
+  }
+, { title      : "Lazy Abstraction"
+  , authors    : [ "Thomas Henzinger", "Ranjit Jhala", "Rupak Majumdar", "Gregoire Sutre" ]
+  , year       : 2002
+  , venue      : "ACM Symposium on Principles of Programming Languages"
+  , shortvenue : "POPL"
+  , tags       : [ "Software Model Checking", "BLAST" ]
+  , url        : "http://www.google.com"
+  }
+, { title      : "Type Targeted Testing"
+  , authors    : [ "Eric Seidel", "Niki Vazou", "Ranjit Jhala" ]
+  , year       : 2015
+  , venue      : "European Symposium on Programming"
+  , shortvenue : "ESOP"
+  , tags       : [ "Testing", "Liquid Types", "LiquidHaskell"]
+  , url        : "http://www.google.com"
+  }
+, { title      : "Bounded Refinement Types"
+  , authors    : [ "Niki Vazou", "Alexander Bakst", "Ranjit Jhala" ]
+  , year       : 2015
+  , venue      : "ACM International Conference on Functional Programming"
+  , shortvenue : "ICFP"
+  , tags       : [ "LiquidHaskell" ]
+  , url        : "http://www.google.com"
+  }
+]

@@ -1,0 +1,9 @@
+{% if title %}
+<h1 id="{{ title }}">{{ title }}</h1>
+{% endif %}
+
+<ul>
+{% for item in items %}
+  <li>{{ item.name }} for {{ item.price }}</li>
+{% endfor %}
+</ul>
