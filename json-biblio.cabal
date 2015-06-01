@@ -16,12 +16,14 @@ extra-source-files:  README.md
 cabal-version:       >=1.10
 
 executable json-biblio
-  main-is:             src/Main.hs
+  hs-source-dirs:      src
+  main-is:             Main.hs
   -- other-modules:       
   -- other-extensions:    
   build-depends:       base >=4.7 && <4.8
                      , vector
                      , unordered-containers
+                     , bytestring
                      , text
                      , aeson 
                      , karver

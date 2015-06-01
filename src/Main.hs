@@ -2,9 +2,8 @@
 
 import qualified Data.Text.IO        as T
 import           Text.Karver
-import           Control.Applicative ((<$>))
 import           Text.JsonBib.Types
-
+-- import           Control.Applicative ((<$>))
 
 main :: IO ()
 main = do
@@ -13,6 +12,6 @@ main = do
   let htmlStr = renderTemplate bib tplStr
   T.writeFile outF htmlStr
   where
-    tpltF = "examples/pubs.html"
+    tpltF = "examples/bib.html"
     bibF  = "examples/bib.json"
     outF  = "dist/output.html"
